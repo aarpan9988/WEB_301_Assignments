@@ -1,0 +1,191 @@
+/* Name: Arpan Arpan
+   Student Name: 0820839*/
+body {
+    background-color: rgba(236, 161, 100, 0.85);
+    min-height: 100vh;
+}
+
+/**********************
+2. Heading Styles
+**********************/
+
+h1 {
+    font-size: 3em;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 5px 0px;
+}
+h5{
+    color: white;
+    font-size: 1.5em;
+     
+}
+/**********************
+3. Main Body Styles
+**********************/
+
+section {
+    margin: 3em 0em;
+}
+
+button {
+    width: 32em;
+    height: 3.5em;
+    border-radius: 100px;
+    border: 0;
+    background-color: gray;
+    background-size: 200%;
+     
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    margin-right: 10px;
+}
+
+label {
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+   
+     
+
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+}
+input   {
+    margin: 15px 15px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0;
+     
+     
+     
+}
+textarea{
+    vertical-align: top;
+    width: 60%;
+    border-radius: 5px;
+    padding: 7px;
+}
+input[type="submit"] {
+    width: 10%;
+    height: 3.5em;
+    align-self: center;
+    border-radius: 100px;
+    border: 0;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+ 
+}
+ textarea{
+    float: right;
+ }
+div input{
+    width: 49.98%
+}
+div label{
+    width: 24.99%;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+/**********************
+4. Footer Styles
+**********************/
+
+footer {
+    height:48px;  
+    background-color: rgba(91 50 74 / 30%)
+}
+
+footer p {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 6px 0px;
+}
+
+/****************************  MEDIA STYLES - above 601px  ***********************************/
+
+@media screen and (max-width: 758px)
+{ 
+    body{
+        background-color: rgb(240, 189, 157);
+    }
+    input[type="submit"]{
+        width: 33.32%;
+    }
+    
+}
+
+/****************************  MEDIA STYLES -  600px ***********************************/
+
+@media screen and (max-width: 600px)
+{  
+    body {
+        background-color: rgba(202, 216, 231, 0.85);
+        min-width: 480px;
+    }
+    
+    button {
+        width: 90%;
+        margin-bottom: 5px;
+    }
+
+    label {
+        font-size: 30px;
+         color: black;
+        
+    }
+
+    input[type="submit"]{
+        margin-top: 10px;
+        width: 16.66%;
+         
+        
+    }
+
+    footer p {
+        padding: 12px 0px;
+        font-size: 1.2em;
+    }
+    
+    div input{
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom:15px
+    }
+    div label{
+        width: 100%;
+        
+    }
+    textarea{
+        width: 90%;
+         
+    }
+}
+
+ 
