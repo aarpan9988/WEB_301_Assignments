@@ -1,0 +1,128 @@
+/*Name : Arpan Arpan*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    max-width: 600px; /* Adjust to your desired width */
+    margin: 0 auto;
+}
+
+.swiper-slide {
+text-align: center;
+padding: 20px;
+background-color: #ececdf;
+border: 1px solid #ddd;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 41.65%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="password"]:invalid {
+    border-color: red;
+}
+
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="password"]:valid {
+    border-color: green;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.swiper-container {
+    width: 100%;
+    max-width: 600px; /* Adjust to your desired width */
+    margin: 0 auto;
+}
+
+.swiper-slide {
+text-align: center;
+padding: 70px;
+background-color: #fbcece;
+border: 1px solid #ddd;
+}
+div{
+    height: 400px;
+}
+
+@media screen and (min-width: 601px)
+{ 
+    body{
+        background-color: rgb(234, 219, 210);
+    }
+    
+    div input{
+         
+        width: 41.65%;
+        vertical-align:top ;
+     
+        
+    }
+    div{
+        width: 100%;
+    }
+    div label{
+        width: 16.66%;
+    }
+    
+}
+@media screen and (max-width: 600px){
+form{
+    background-color: rgb(221, 202, 156);
+}
+.swiper-slide{
+    background-color: rgb(150, 169, 148);
+}
+div{
+    width: 100%;
+}
+}
