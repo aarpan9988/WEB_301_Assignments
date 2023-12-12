@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arpan Social Media Website</title>
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/your_font_awesome_kit.js" crossorigin="anonymous"></script>
+  </head>
+  
+
+<body>
+
+  <nav class="navbar navbar-expand navbar-dark bg-secondary">
+    <div class="navbar-nav mx-auto">
+      <a class="nav-item nav-link active" href="#"><i class="bi bi-house-door"></i> Home</a>
+      <a class="nav-item nav-link" href="#"><i class="bi bi-snapchat"></i> Notifications</a>
+      <a class="nav-item nav-link" href="#"><i class="bi bi-person-square"></i> Profile</a>
+    </div>
+  </nav>
+
+
+  <div class="container mt-4">
+    <h1 class="text-success"> Arpan's media for Socialisation</h1>
+    
+    <div class="alert alert-danger" role="alert">
+      Latest News/Job Posting
+    </div>
+
+   
+    <div class="row">
+    
+      <div class="col-lg-6 col-md-4 mb-4">
+ 
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">
+          Open Modal 1
+        </button>
+     
+        <div class="modal" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal 1</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="pic.jpeg" alt="Image 1" class="img-fluid">
+                <p> This app is for video purposes </p>
+                <p>Date/Time: <span id="datetime"></span></p>
+                <script>
+                    var dt = new Date();
+                    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    
+    <div class="row">
+    
+        <div class="col-lg-6 col-md-4 mb-4">
+   
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">
+            Open Modal 2
+          </button>
+       
+          <div class="modal" id="modal1" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal 2</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="pic.jpeg" alt="Image 1" class="img-fluid">
+                  <p> This app is for video purposes </p>
+                  <p>Date/Time: <span id="datetime"></span></p>
+                  <script>
+                      var dt = new Date();
+                      document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="row">
+    
+        <div class="col-lg-6 col-md-4 mb-4">
+   
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">
+            Open Modal 2
+          </button>
+       
+          <div class="modal" id="modal1" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal 2</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="pic.jpeg" alt="Image 1" class="img-fluid">
+                  <p> This app is for video purposes </p>
+                  <p>Date/Time: <span id="datetime"></span></p>
+                  <script>
+                      var dt = new Date();
+                      document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="container">
+        <div class="col-md-6">
+            <h4> PROFILE NAME</h4>
+         
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required>
+      </div>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
+      </div>
+      <div>
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" id="zipCode" required pattern="\d{6}">
+      </div>
+      <div>
+        <button type="submit" form="form1" value="Submit">Submit</button>
+      </div>
+    </form>
+</div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+  <script src="https://kit.fontawesome.com/your_font_awesome_kit.js" crossorigin="anonymous"></script>
+</body>
+</html>

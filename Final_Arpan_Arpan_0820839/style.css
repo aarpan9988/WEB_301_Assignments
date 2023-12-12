@@ -1,0 +1,42 @@
+@media screen and (min-width: 601px)
+{ 
+    body{
+        background-color: rgb(234, 219, 210);
+    }
+    
+    div input{
+         
+        width: 41.65%;
+        vertical-align:top ;
+     
+        
+    }
+    div{
+        width: 100%;
+    }
+    div label{
+        width: 16.66%;
+    }
+    
+}
+@media screen and (max-width: 600px){
+form{
+    background-color: rgb(221, 202, 156);
+}
+
+div{
+    width: 100%;
+}
+}
+label{
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 41.65%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
